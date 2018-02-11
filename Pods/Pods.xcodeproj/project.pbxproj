@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05E9BDDEDF5BB5995077C469E504C3F2 /* CWStatusBarNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 842BF89E11B7FDEE5C1CBA16011FDE98 /* CWStatusBarNotification-dummy.m */; };
+		099104440280D5C94A8E53C44B14F6B4 /* CWStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899C533B48FB4DAC8602E80F714023 /* CWStatusBarNotification.m */; };
+		14B48C350FCC84E0FFE1B1D49C644EB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		33BD93FB46FAE0D564DB7708501E04C0 /* Pods-ShoppingRecommendationSystem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C7AEA011D18465DD9066012B34F988 /* Pods-ShoppingRecommendationSystem-dummy.m */; };
+		48EEBD235AD10B1F070971405B45A3A1 /* CWStatusBarNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55B8BE8E5494872E201CCB452928B6FC /* CWStatusBarNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		649BEE48E9D5FF768EEF1B43A0B146BE /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D109E69A2C80529C9BA36BD65560E838 /* SkyFloatingLabelTextField.swift */; };
+		668947B66B3BBA49CF4A463E74AD98FA /* CWStatusBarNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE724E9E98F0E5B6EF4017667AAFCCD /* CWStatusBarNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E7732F28E8CEDB714135ED9D0642240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		906C7F28E491168F10246BC4C97021D0 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B66A6337C2E3F306F588A20A79D717E5 /* SkyFloatingLabelTextField-dummy.m */; };
+		983E797867AEE396490335F0E055B6B4 /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2121EA96FBEE62140820D403A5EFC307 /* UITextField+fixCaretPosition.swift */; };
+		A1BB3B1F2B7D2A47E8B0DA967379A864 /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26478D0BF61CD62CCD56D0F367E383B9 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA8F21602531F277229632A20740B970 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CCE956B0AADA680491B1ED249541E9B5 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5D8BB148B688612B2E63404E11ADEA /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		E7EE0D0A49D61465E8FF7143DD12A36B /* Pods-ShoppingRecommendationSystem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A641BF77B493C1FFC6F6EA530C4967A /* Pods-ShoppingRecommendationSystem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E09843302EA3AEDE691C70780D5A276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBB40DC68BFEC4E8897FD3DF3B349908;
+			remoteInfo = CWStatusBarNotification;
+		};
+		4A081C096F7C521FAE7A6C2D7CFDAD26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58CABDCC15603E595D3E13B31FA874D8;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0268BA9AFA0AF4E70F927A450CF1D0D7 /* CWStatusBarNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CWStatusBarNotification.modulemap; sourceTree = "<group>"; };
+		079D7EB5D5B15E986D68FDA0C1A0DBCF /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		094686F4C5AE9FC7E73497718E2826FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0955AFC522BC572153277EBF3827513E /* Pods-ShoppingRecommendationSystem-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShoppingRecommendationSystem-resources.sh"; sourceTree = "<group>"; };
+		12C7AEA011D18465DD9066012B34F988 /* Pods-ShoppingRecommendationSystem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShoppingRecommendationSystem-dummy.m"; sourceTree = "<group>"; };
+		2121EA96FBEE62140820D403A5EFC307 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		26478D0BF61CD62CCD56D0F367E383B9 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		2CAC5051F05754B5F265EE323730378B /* CWStatusBarNotification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CWStatusBarNotification.xcconfig; sourceTree = "<group>"; };
+		38343DFB93F64DDB5D0C9F63A417CEDD /* Pods-ShoppingRecommendationSystem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ShoppingRecommendationSystem.modulemap"; sourceTree = "<group>"; };
+		3D5BBDD9B0C2F0E7864619E57892EAFB /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B27326C4045D38AF0364D8228923DF3 /* SkyFloatingLabelTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.xcconfig; sourceTree = "<group>"; };
+		4B4A771AD865162826ECFF78B743B4A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B8BE8E5494872E201CCB452928B6FC /* CWStatusBarNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWStatusBarNotification-umbrella.h"; sourceTree = "<group>"; };
+		5A641BF77B493C1FFC6F6EA530C4967A /* Pods-ShoppingRecommendationSystem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShoppingRecommendationSystem-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7ACD2E09235E1B26E4C7F8C02B8A4C26 /* Pods_ShoppingRecommendationSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShoppingRecommendationSystem.framework; path = "Pods-ShoppingRecommendationSystem.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE724E9E98F0E5B6EF4017667AAFCCD /* CWStatusBarNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWStatusBarNotification.h; path = CWStatusBarNotification/CWStatusBarNotification.h; sourceTree = "<group>"; };
+		842BF89E11B7FDEE5C1CBA16011FDE98 /* CWStatusBarNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CWStatusBarNotification-dummy.m"; sourceTree = "<group>"; };
+		88ECD6D1D8443612AA41CF1BC2C8A42C /* Pods-ShoppingRecommendationSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShoppingRecommendationSystem.debug.xcconfig"; sourceTree = "<group>"; };
+		8F5D5099EED76A2C3E2966B757FF6A39 /* Pods-ShoppingRecommendationSystem-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShoppingRecommendationSystem-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B26B3A844CB94215D8B952663D7BE93C /* CWStatusBarNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWStatusBarNotification-prefix.pch"; sourceTree = "<group>"; };
+		B66A6337C2E3F306F588A20A79D717E5 /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		B75B61536EEE13B964FD1D09D47DDE8A /* Pods-ShoppingRecommendationSystem-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShoppingRecommendationSystem-frameworks.sh"; sourceTree = "<group>"; };
+		B75FE07277B7C415442212419597F17A /* Pods-ShoppingRecommendationSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShoppingRecommendationSystem.release.xcconfig"; sourceTree = "<group>"; };
+		CDF989DD0F81AC376E6EB926FEC168BF /* CWStatusBarNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CWStatusBarNotification.framework; path = CWStatusBarNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6F232D333E659441C9F13894DBBD64 /* Pods-ShoppingRecommendationSystem-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShoppingRecommendationSystem-acknowledgements.plist"; sourceTree = "<group>"; };
+		D109E69A2C80529C9BA36BD65560E838 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		EA5D8BB148B688612B2E63404E11ADEA /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		ECE07E399D587E73FF2F5BBE4E906868 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		FBD8D6D52492471CB353CEFD91E05585 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF899C533B48FB4DAC8602E80F714023 /* CWStatusBarNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWStatusBarNotification.m; path = CWStatusBarNotification/CWStatusBarNotification.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46EF95ECA35552FB628B2BAF2C03AE37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8F21602531F277229632A20740B970 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77E396576AE92A28686D9F16D19B9341 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B48C350FCC84E0FFE1B1D49C644EB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A6E2B8C3CCD77D5A37B63AE47F37674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7732F28E8CEDB714135ED9D0642240 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1931CB03FC9A037A3499306F9B82CF75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDF989DD0F81AC376E6EB926FEC168BF /* CWStatusBarNotification.framework */,
+				7ACD2E09235E1B26E4C7F8C02B8A4C26 /* Pods_ShoppingRecommendationSystem.framework */,
+				3D5BBDD9B0C2F0E7864619E57892EAFB /* SkyFloatingLabelTextField.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2715607410D4A8DFC03A79F377A84ED7 /* Pods-ShoppingRecommendationSystem */ = {
+			isa = PBXGroup;
+			children = (
+				094686F4C5AE9FC7E73497718E2826FF /* Info.plist */,
+				38343DFB93F64DDB5D0C9F63A417CEDD /* Pods-ShoppingRecommendationSystem.modulemap */,
+				8F5D5099EED76A2C3E2966B757FF6A39 /* Pods-ShoppingRecommendationSystem-acknowledgements.markdown */,
+				CE6F232D333E659441C9F13894DBBD64 /* Pods-ShoppingRecommendationSystem-acknowledgements.plist */,
+				12C7AEA011D18465DD9066012B34F988 /* Pods-ShoppingRecommendationSystem-dummy.m */,
+				B75B61536EEE13B964FD1D09D47DDE8A /* Pods-ShoppingRecommendationSystem-frameworks.sh */,
+				0955AFC522BC572153277EBF3827513E /* Pods-ShoppingRecommendationSystem-resources.sh */,
+				5A641BF77B493C1FFC6F6EA530C4967A /* Pods-ShoppingRecommendationSystem-umbrella.h */,
+				88ECD6D1D8443612AA41CF1BC2C8A42C /* Pods-ShoppingRecommendationSystem.debug.xcconfig */,
+				B75FE07277B7C415442212419597F17A /* Pods-ShoppingRecommendationSystem.release.xcconfig */,
+			);
+			name = "Pods-ShoppingRecommendationSystem";
+			path = "Target Support Files/Pods-ShoppingRecommendationSystem";
+			sourceTree = "<group>";
+		};
+		3FDBB7936782B7F11AB1C87C0225E143 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B4A771AD865162826ECFF78B743B4A0 /* Info.plist */,
+				079D7EB5D5B15E986D68FDA0C1A0DBCF /* SkyFloatingLabelTextField.modulemap */,
+				4B27326C4045D38AF0364D8228923DF3 /* SkyFloatingLabelTextField.xcconfig */,
+				B66A6337C2E3F306F588A20A79D717E5 /* SkyFloatingLabelTextField-dummy.m */,
+				ECE07E399D587E73FF2F5BBE4E906868 /* SkyFloatingLabelTextField-prefix.pch */,
+				26478D0BF61CD62CCD56D0F367E383B9 /* SkyFloatingLabelTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+		44ACED4D91996736397A87D0D315C77D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2715607410D4A8DFC03A79F377A84ED7 /* Pods-ShoppingRecommendationSystem */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		64200E18F26618235138C15AB02E6ECE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4B9EBD9B04D91E98BD4AB39E6AD7E1D /* CWStatusBarNotification */,
+				7FB5B2D7FBCA9A41619B8EE02FCAECA9 /* SkyFloatingLabelTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				64200E18F26618235138C15AB02E6ECE /* Pods */,
+				1931CB03FC9A037A3499306F9B82CF75 /* Products */,
+				44ACED4D91996736397A87D0D315C77D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB5B2D7FBCA9A41619B8EE02FCAECA9 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				D109E69A2C80529C9BA36BD65560E838 /* SkyFloatingLabelTextField.swift */,
+				EA5D8BB148B688612B2E63404E11ADEA /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				2121EA96FBEE62140820D403A5EFC307 /* UITextField+fixCaretPosition.swift */,
+				3FDBB7936782B7F11AB1C87C0225E143 /* Support Files */,
+			);
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C12F13902B77BB755F1253A1732BDE96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0268BA9AFA0AF4E70F927A450CF1D0D7 /* CWStatusBarNotification.modulemap */,
+				2CAC5051F05754B5F265EE323730378B /* CWStatusBarNotification.xcconfig */,
+				842BF89E11B7FDEE5C1CBA16011FDE98 /* CWStatusBarNotification-dummy.m */,
+				B26B3A844CB94215D8B952663D7BE93C /* CWStatusBarNotification-prefix.pch */,
+				55B8BE8E5494872E201CCB452928B6FC /* CWStatusBarNotification-umbrella.h */,
+				FBD8D6D52492471CB353CEFD91E05585 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CWStatusBarNotification";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D4B9EBD9B04D91E98BD4AB39E6AD7E1D /* CWStatusBarNotification */ = {
+			isa = PBXGroup;
+			children = (
+				7FE724E9E98F0E5B6EF4017667AAFCCD /* CWStatusBarNotification.h */,
+				FF899C533B48FB4DAC8602E80F714023 /* CWStatusBarNotification.m */,
+				C12F13902B77BB755F1253A1732BDE96 /* Support Files */,
+			);
+			name = CWStatusBarNotification;
+			path = CWStatusBarNotification;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		107CF5429746069518D976E8FD4AB7D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BB3B1F2B7D2A47E8B0DA967379A864 /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD99075997237471846E09D941BE7BAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48EEBD235AD10B1F070971405B45A3A1 /* CWStatusBarNotification-umbrella.h in Headers */,
+				668947B66B3BBA49CF4A463E74AD98FA /* CWStatusBarNotification.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61C069F59FCC5A5706BF097D117E4CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7EE0D0A49D61465E8FF7143DD12A36B /* Pods-ShoppingRecommendationSystem-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24DDAEB3F4D13A5691D3D07370FD0854 /* Pods-ShoppingRecommendationSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD56D4FDB0D906951F56F6CADD4F854 /* Build configuration list for PBXNativeTarget "Pods-ShoppingRecommendationSystem" */;
+			buildPhases = (
+				D7706D8C449546C097659C53B704E903 /* Sources */,
+				8A6E2B8C3CCD77D5A37B63AE47F37674 /* Frameworks */,
+				F61C069F59FCC5A5706BF097D117E4CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A605820F04735EC25BBDFB72A4A7E0A /* PBXTargetDependency */,
+				6194CD3291E213BD9BD1F3500D5E2876 /* PBXTargetDependency */,
+			);
+			name = "Pods-ShoppingRecommendationSystem";
+			productName = "Pods-ShoppingRecommendationSystem";
+			productReference = 7ACD2E09235E1B26E4C7F8C02B8A4C26 /* Pods_ShoppingRecommendationSystem.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58CABDCC15603E595D3E13B31FA874D8 /* SkyFloatingLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 990BB63EAB63F69234391B59B068EA75 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildPhases = (
+				7A40E11138CDD2442DFA82085A5CDDC3 /* Sources */,
+				46EF95ECA35552FB628B2BAF2C03AE37 /* Frameworks */,
+				107CF5429746069518D976E8FD4AB7D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = 3D5BBDD9B0C2F0E7864619E57892EAFB /* SkyFloatingLabelTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBB40DC68BFEC4E8897FD3DF3B349908 /* CWStatusBarNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A77FE96A250D2D8332F4487542EE42 /* Build configuration list for PBXNativeTarget "CWStatusBarNotification" */;
+			buildPhases = (
+				E15324F17181B0EC6622B9075FACEA81 /* Sources */,
+				77E396576AE92A28686D9F16D19B9341 /* Frameworks */,
+				DD99075997237471846E09D941BE7BAB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CWStatusBarNotification;
+			productName = CWStatusBarNotification;
+			productReference = CDF989DD0F81AC376E6EB926FEC168BF /* CWStatusBarNotification.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1931CB03FC9A037A3499306F9B82CF75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBB40DC68BFEC4E8897FD3DF3B349908 /* CWStatusBarNotification */,
+				24DDAEB3F4D13A5691D3D07370FD0854 /* Pods-ShoppingRecommendationSystem */,
+				58CABDCC15603E595D3E13B31FA874D8 /* SkyFloatingLabelTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A40E11138CDD2442DFA82085A5CDDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906C7F28E491168F10246BC4C97021D0 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				649BEE48E9D5FF768EEF1B43A0B146BE /* SkyFloatingLabelTextField.swift in Sources */,
+				CCE956B0AADA680491B1ED249541E9B5 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				983E797867AEE396490335F0E055B6B4 /* UITextField+fixCaretPosition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7706D8C449546C097659C53B704E903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BD93FB46FAE0D564DB7708501E04C0 /* Pods-ShoppingRecommendationSystem-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15324F17181B0EC6622B9075FACEA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E9BDDEDF5BB5995077C469E504C3F2 /* CWStatusBarNotification-dummy.m in Sources */,
+				099104440280D5C94A8E53C44B14F6B4 /* CWStatusBarNotification.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A605820F04735EC25BBDFB72A4A7E0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CWStatusBarNotification;
+			target = FBB40DC68BFEC4E8897FD3DF3B349908 /* CWStatusBarNotification */;
+			targetProxy = 3E09843302EA3AEDE691C70780D5A276 /* PBXContainerItemProxy */;
+		};
+		6194CD3291E213BD9BD1F3500D5E2876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = 58CABDCC15603E595D3E13B31FA874D8 /* SkyFloatingLabelTextField */;
+			targetProxy = 4A081C096F7C521FAE7A6C2D7CFDAD26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		035FA378F5852A2656CFD1EB1551CAE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CAC5051F05754B5F265EE323730378B /* CWStatusBarNotification.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CWStatusBarNotification/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification.modulemap";
+				PRODUCT_NAME = CWStatusBarNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1C84A201E18EAC2A98BDB76C2ED63E2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88ECD6D1D8443612AA41CF1BC2C8A42C /* Pods-ShoppingRecommendationSystem.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShoppingRecommendationSystem/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShoppingRecommendationSystem/Pods-ShoppingRecommendationSystem.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ShoppingRecommendationSystem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D23278938ADF334174C5BF2A4B6B1B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3685AA116B66E6B0847F32DB957C5963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B27326C4045D38AF0364D8228923DF3 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48185611113FA57B9519CB10BFE60186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B27326C4045D38AF0364D8228923DF3 /* SkyFloatingLabelTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D902A586CBF18384455BC3AB3F62F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		777353A0E751240C95845779673FCC1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CAC5051F05754B5F265EE323730378B /* CWStatusBarNotification.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CWStatusBarNotification/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification.modulemap";
+				PRODUCT_NAME = CWStatusBarNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFFCD0E26B1E7F4DAB88873772A8BABD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B75FE07277B7C415442212419597F17A /* Pods-ShoppingRecommendationSystem.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShoppingRecommendationSystem/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShoppingRecommendationSystem/Pods-ShoppingRecommendationSystem.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ShoppingRecommendationSystem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07A77FE96A250D2D8332F4487542EE42 /* Build configuration list for PBXNativeTarget "CWStatusBarNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777353A0E751240C95845779673FCC1D /* Debug */,
+				035FA378F5852A2656CFD1EB1551CAE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D902A586CBF18384455BC3AB3F62F8A /* Debug */,
+				1D23278938ADF334174C5BF2A4B6B1B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		990BB63EAB63F69234391B59B068EA75 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48185611113FA57B9519CB10BFE60186 /* Debug */,
+				3685AA116B66E6B0847F32DB957C5963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD56D4FDB0D906951F56F6CADD4F854 /* Build configuration list for PBXNativeTarget "Pods-ShoppingRecommendationSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C84A201E18EAC2A98BDB76C2ED63E2D /* Debug */,
+				FFFCD0E26B1E7F4DAB88873772A8BABD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

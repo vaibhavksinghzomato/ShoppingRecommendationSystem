@@ -1,0 +1,15 @@
+PODS:
+  - CWStatusBarNotification (2.3.5)
+  - SkyFloatingLabelTextField (3.4.0)
+
+DEPENDENCIES:
+  - CWStatusBarNotification
+  - SkyFloatingLabelTextField
+
+SPEC CHECKSUMS:
+  CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
+  SkyFloatingLabelTextField: 703aa1420b697392b1e7dba25571180dde018477
+
+PODFILE CHECKSUM: f2d4a76df178a6b78050cd64be7fb860539ed08b
+
+COCOAPODS: 1.2.1
